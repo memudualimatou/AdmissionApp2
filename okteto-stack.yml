@@ -2,10 +2,10 @@ name: admissionApp
 services:
 api:
 public: true
-image: adminapp1/admissionapp1
+image: anikesadia01/adminapp1
 build: .
 ports:
-- 8080
+- 5000
 resources:
 cpu: 1
 memory: 20Mi
