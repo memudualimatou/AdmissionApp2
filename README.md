@@ -11,7 +11,7 @@ the object detected by their confidence and provides the power to select the obj
 
 * [DeepStack](https://docs.deepstack.cc/)
 
-* [Streamlit](https://streamlit.com/)
+* [Streamlit](https://docs.streamlit.io/en/stable/)
 
 * [DeepStack-UI](https://github.com/robmarkcole/deepstack-ui)
 
@@ -32,9 +32,9 @@ Deepstack-ui can be run through two ways:
 #### Solution1:
 From the root dir, build the deepstack-ui container from source and then run the UI, passing the DEEPSTACK_IP environment variable:
 
-    * docker pull robmarkcole/deepstack-ui:latest
+     docker pull robmarkcole/deepstack-ui:latest
 
-    * docker run -p 8501:8501 -e DEEPSTACK_IP='192.168.1.133' deepstack-ui
+     docker run -p 8501:8501 -e DEEPSTACK_IP='192.168.1.133' deepstack-ui
 
 - DEEPSTACK_IP : the IP address of your deepstack instance, default "localhost"
 
