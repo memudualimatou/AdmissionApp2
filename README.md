@@ -61,7 +61,7 @@ The UI is now viewable at http://localhost:8501
    * Run the command streamlit run app/deepstack-ui.py to start the deepsack-ui application
 
 
-Now, the UI is viewable at http://localhost:8501
+Now, the UI is available at http://localhost:8501
 
 
 ## PROJECT DEMO
