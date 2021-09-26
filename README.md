@@ -75,6 +75,7 @@ This system accepts an image as input and outputs a couple of elements xplained 
 
 ![capture1](https://github.com/memudualimatou/AdmissionApp2/blob/main/image1.jpg)
 
+<br>
 This is the landing page of deepstqck-ui. It is composed of two sections, the parameter section constructed to manipulate the image as wished and the main page which displayed
 the results. 
 
@@ -85,9 +86,10 @@ The parameter is composed of 3 parts:
 
 ![capture](https://github.com/memudualimatou/AdmissionApp2/blob/main/Capture002.PNG)
 
+<br>
 The main page outputs four elements which are:
 
-1. **Processed Image** : This image is composed of all object detected, bordered with their t=respective label
+1. **Processed Image** : This image is composed of all object detected, bordered with their respective label
 2. **All discovered objects** : A list of all object detected
 3. **Filtered object count** : A list of the objects and their number of occurance.
 4. **All filtered objects** : A list of dictionaries where each dictionary consict of each object's confidence value, name and location details.
@@ -96,16 +98,16 @@ The main page outputs four elements which are:
 ![capture](https://github.com/memudualimatou/AdmissionApp2/blob/main/Capture996.PNG)
 
 
-After intersing an image, the systems displyed the following:
+<br>
 
-- Tthe inputted image with all the opject detected bordered with their respective label.
+After intersing an image:
 
 ![capture](https://github.com/memudualimatou/AdmissionApp2/blob/main/Capture777.PNG)
 
 
-#### DEMO
 
-
+<br>
+## DEEPSTACK-UI DEMO
 
 ![capture](https://github.com/memudualimatou/AdmissionApp2/blob/main/gif1.gif)
 
