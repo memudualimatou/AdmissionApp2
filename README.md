@@ -1,43 +1,68 @@
+## DEEPSTACK-UI
 
-<h2 align="center"> ADMISSION CHANCE PREDICTION SYSTEM</h2>
-
-<h4 align="center"><i>This is a chance  prediction system. The aim is to predict student chance of guetting admitted based on their exam scores</i></h4><br>
-
-
-
-## ⚙️ HOW DOES THE INSURANCE CHARGES PREDICTION SYSTEM WORKS?
-
-This sytem is a flask responsive web application  hosted on heroku. It predicts a student chance of getting admitted into the university based on the following scores.
-The GRE Score
-TOEFL Score
-University Rating
-SOP - Statement of Purpose
-LOR - Letter of Recommendation
-CGPA - Cumulative Grade Point Average
-Research-- Made a research? (Yes=1/No=0)
-
-SOP stands for Statement of Purpose which is a necessary document for graduate applications. Basically explains why you are applying to that program/college.
-LOR stands for Letter of Recommendation which is also a necessary document as a part of your application. It has letters from your professors/mentors/managers endorsing your application and supporting your candidature for the program.
+DeepStack-UI is a streamlit web application powered by Deepstack and designed to run on docker container. It uses the user-friendly designed web application for object detection or
+facdetection from uploaded images.
+This web app provides the advantages to manipulate the images as the user wishes by providing the 
+necessity to do so, it allows the user to select a specific section of the image on which his desired objects will be extracted, filter
+the object detected by their confidence and provides the power to select the object the user desired to detect.
 
 
-## ⚠️ THE TECHNOLOGY
-* [FLASK](https://en.wikipedia.org/wiki/Flask_(web_framework))
+## TECHONLOGY USED
 
-* [HEROKU](https://en.wikipedia.org/wiki/Heroku)
+* [DeepStack](https://docs.deepstack.cc/)
 
-* [PICKLE](https://en.wikipedia.org/wiki/Pickle)
+* [Streamlit](https://streamlit.com/)
 
-* [LINEAR REGRESSION](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html)<br><br>
+* [DeepStack-UI](https://github.com/robmarkcole/deepstack-ui)
 
 
-# ⌛ Project Demo
-<br>
+## INSTALLATION
 
-[DEPLOYED ON HEROKU | CLICK HERE TO TEST THE SYSTEM](https://webapp-deployment-heroku.herokuapp.com/)
-<br>
-<br>
+To run Deepstack-ui for object detection, two major steps must be followed accordingly:
 
-![capture](https://github.com/memudualimatou/ADMISSION-WEB-APPLICATION-USING-FLASK-PYTHON/blob/master/Capture27.PNG)<br>
-<br><br>
+1. **Deepstack Installation on Docker ** 
+To install Deeptsack you need to run the command below 
+```
+docker run -e VISION-DETECTION=True -p 80:5000 deepquestai/deepstack:latest
+```
+
+2. **DeepStack-UI Installation**
+Deepstack-ui can be run through two ways:
+
+#### Solution1:
+From the root dir, build the deepstack-ui container from source and then run the UI, passing the DEEPSTACK_IP environment variable:
+
+    * docker pull robmarkcole/deepstack-ui:latest
+
+    * docker run -p 8501:8501 -e DEEPSTACK_IP='192.168.1.133' deepstack-ui
+
+- DEEPSTACK_IP : the IP address of your deepstack instance, default "localhost"
+
+To check this IP address:
+- Open PowerShell and run the command below
+```
+Get-NetIPAddress -AddressFamily IPV4
+```
+- Then copy the first IP Address in the result
+- Use the IP address to replace “localhost” in your DeepStack UI command
+
+The UI is now viewable at http://localhost:8501
+
+#### Solution2:
+
+   * Clone the deepstack_ui repository
+	
+   * Open Powershell or CMD in the repository folder and run pip install -r requirements.txt
+
+   * Go to this folder on your laptop
+ 		C:\Users\<your-laptop-username>\.streamlit and delete the file config.toml
+	
+   * Run the command streamlit run app/deepstack-ui.py to start the deepsack-ui application
+
+
+Now, the UI is viewable at http://localhost:8501
+
+
+## PROJECT DEMO
 
 
