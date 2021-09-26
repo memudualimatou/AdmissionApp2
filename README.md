@@ -1,10 +1,10 @@
 ## DEEPSTACK-UI
 
-DeepStack-UI is a streamlit web application powered by Deepstack and designed to run on docker container. It uses the user-friendly designed web application for object detection or
+DeepStack-UI is a UI web application powered by Deepstack. It uses the user-friendly designed web application for object detection or
 facdetection from uploaded images.
 This web app provides the advantages to manipulate the images as the user wishes by providing the 
 necessity to do so, it allows the user to select a specific section of the image on which his desired objects will be extracted, filter
-the object detected by their confidence and provides the power to select the object the user desired to detect.
+the object detected by their confidence and provides the power to select the object the user desired to detect. It is designed to run on docker container.
 
 
 ## TECHONLOGY USED
@@ -65,5 +65,6 @@ Now, the UI is available at http://localhost:8501
 
 
 ## PROJECT DEMO
+
 
 
