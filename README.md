@@ -97,11 +97,14 @@ After intersing an image, the systems displyed the following:
 
 - Tthe inputted image with all the opject detected bordered with their respective label.
 
-![capture](https://github.com/memudualimatou/STUDENT-ATTENDANCE-USING-FACIAL-RECOGNITION-SYSTEM-OPENCV/blob/master/Docs/Images/Capture12.PNG)
+![capture](https://github.com/memudualimatou/AdmissionApp2/blob/main/Capture777.PNG)
+
+
+#### DEMO
 
 
 
-
+![capture](https://github.com/memudualimatou/AdmissionApp2/blob/main/Capture777.PNG)
 
 
 
