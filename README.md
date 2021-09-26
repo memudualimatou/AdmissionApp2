@@ -20,13 +20,14 @@ the object detected by their confidence and provides the power to select the obj
 
 To run Deepstack-ui for object detection, two major steps must be followed accordingly:
 
-1. **Deepstack Installation on Docker ** 
+
+### 1-Deepstack Installation on Docker
 To install Deeptsack you need to run the command below 
 ```
 docker run -e VISION-DETECTION=True -p 80:5000 deepquestai/deepstack:latest
 ```
 
-2. **DeepStack-UI Installation**
+### 2-DeepStack-UI Installation
 Deepstack-ui can be run through two ways:
 
 #### Solution1:
