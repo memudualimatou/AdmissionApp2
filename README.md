@@ -70,10 +70,10 @@ Now, the UI is available at http://localhost:8501
 This system accepts an image as input and outputs a couple of elements xplained below:
 
 
-1. **UI**:
+
 <br>
 
-![capture1](https://github.com/memudualimatou/AdmissionApp2/blob/main/Screenshot%20(205)%20(1).jpg)
+![capture1](https://github.com/memudualimatou/AdmissionApp2/blob/main/image1.jpg)
 
 This is the landing page of deepstqck-ui. It is composed of two sections, the parameter section constructed to manipulate the image as wished and the main page which displayed
 the results. 
@@ -83,6 +83,8 @@ The parameter is composed of 3 parts:
 2. **ROI** : the Region of Interest is used to select a specific part of the image on ehich the detection will run
 3. **Object Selection** : This is allows the user to choose the type of object to extract in the image.
 
+![capture](https://github.com/memudualimatou/AdmissionApp2/blob/main/Capture002.PNG)
+
 The main page outputs four elements which are:
 
 1. **Processed Image** : This image is composed of all object detected, bordered with their t=respective label
@@ -91,6 +93,7 @@ The main page outputs four elements which are:
 4. **All filtered objects** : A list of dictionaries where each dictionary consict of each object's confidence value, name and location details.
 
 
+![capture](https://github.com/memudualimatou/AdmissionApp2/blob/main/Capture996.PNG)
 
 
 After intersing an image, the systems displyed the following:
@@ -104,7 +107,7 @@ After intersing an image, the systems displyed the following:
 
 
 
-![capture](https://github.com/memudualimatou/AdmissionApp2/blob/main/Capture777.PNG)
+![capture](https://github.com/memudualimatou/AdmissionApp2/blob/main/gif1.gif)
 
 
 
