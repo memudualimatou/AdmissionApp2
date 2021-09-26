@@ -4,7 +4,8 @@ DeepStack-UI is a UI web application powered by Deepstack. It is designed to run
 face detection from uploaded images.
 This web app provides the advantages to manipulate the images as the user wishes by providing the 
 necessity to do so, it allows the user to select a specific section of the image on which his/her desired objects will be extracted, filter
-the object detected by their confidence and provides the power to select the object the user desired to detect
+the object detected by their confidence and provides the power to select the object the user desired to detect.
+
 
 
 ## TECHONLOGY USED
@@ -56,7 +57,7 @@ The UI is now viewable at http://localhost:8501
    * Open Powershell or CMD in the repository folder and run pip install -r requirements.txt
 
    * Go to this folder on your laptop
- 		C:\Users\<your-laptop-username>\.streamlit and delete the file config.toml
+ 		``` C:\Users\<your-laptop-username>\.streamlit and delete the file config.toml ```
 	
    * Run the command streamlit run app/deepstack-ui.py to start the deepsack-ui application
 
@@ -64,7 +65,25 @@ The UI is now viewable at http://localhost:8501
 Now, the UI is available at http://localhost:8501
 
 
-## PROJECT DEMO
+## HOW THE DEEPSTACK-UI WORKS?
+
+This system accepts an image as input and outputs a couple of elements xplained below:
+
+
+1. **IMAGE INSERTION**:
+<br>
+
+![capture1](https://github.com/memudualimatou/STUDENT-ATTENDANCE-USING-FACIAL-RECOGNITION-SYSTEM-OPENCV/blob/master/Docs/Images/Capture12.PNG)
+
+![capture](https://github.com/memudualimatou/STUDENT-ATTENDANCE-USING-FACIAL-RECOGNITION-SYSTEM-OPENCV/blob/master/Docs/Images/Capture12.PNG)
+
+
+
+
+
+
+
+
 
 
 
