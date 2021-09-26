@@ -100,7 +100,7 @@ The main page outputs four elements which are:
 
 <br>
 
-After intersing an image:
+After inserting an image, the output is: 
 
 ![capture](https://github.com/memudualimatou/AdmissionApp2/blob/main/Capture777.PNG)
 
