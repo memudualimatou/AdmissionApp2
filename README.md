@@ -76,13 +76,13 @@ This system accepts an image as input and outputs a couple of elements xplained 
 ![capture1](https://github.com/memudualimatou/AdmissionApp2/blob/main/image1.jpg)
 
 <br>
-This is the landing page of deepstqck-ui. It is composed of two sections, the parameter section constructed to manipulate the image as wished and the main page which displayed
-the results. 
+This is the landing page of deepstack-ui. It is composed of two sections, the parameter section constructed to manipulate the image as wished and the main page which displayed
+the output results. 
 
 The parameter is composed of 3 parts:
 1. **Confidence**  : this is used to set the treshold of the each object prediction percentage (confidence).
-2. **ROI** : the Region of Interest is used to select a specific part of the image on ehich the detection will run
-3. **Object Selection** : This is allows the user to choose the type of object to extract in the image.
+2. **ROI** : the Region of Interest is used to select a specific part of the image on which the detection will run.
+3. **Object Selection** : This allows the user to choose the type of object to extract in the image.
 
 ![capture](https://github.com/memudualimatou/AdmissionApp2/blob/main/Capture002.PNG)
 
@@ -90,7 +90,7 @@ The parameter is composed of 3 parts:
 The main page outputs four elements which are:
 
 1. **Processed Image** : This image is composed of all object detected, bordered with their respective label
-2. **All discovered objects** : A list of all object detected
+2. **All discovered objects** : A list of all object detected.
 3. **Filtered object count** : A list of the objects and their number of occurance.
 4. **All filtered objects** : A list of dictionaries where each dictionary consict of each object's confidence value, name and location details.
 
