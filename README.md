@@ -107,6 +107,8 @@ After inserting an image, the output is:
 
 
 <br>
+
+
 ## DEEPSTACK-UI DEMO
 
 ![capture](https://github.com/memudualimatou/AdmissionApp2/blob/main/gif1.gif)
